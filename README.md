@@ -1,6 +1,6 @@
 # Modern CSS
 
-This repo covers the two main ways to style react components with scoped classes
+This repo covers the two main ways to style react components with scoped classes  
 Purpose: helpful in larger projects (team projects) where more developers can name a class in the same way, resulting in properties being applied unexpectedly on more components
 Solution: Classes that are scoped to certain components
 
@@ -23,8 +23,8 @@ Works in create-react-app dev environment
 
 ### How to use CSS Modules?
 
-For each component, build a Component.module.css file and in the Component.js file import:
-`import styles from './Component.module.css'`
+For each component, build a Component.module.css file and in the Component.js file import:  
+`import styles from './Component.module.css'`  
 @styles - object that has the classes as properties
 
 E.g of use in JSX:
@@ -36,6 +36,6 @@ E.g of use in JSX:
 
 ## References
 
-[Demo Project](https://modern-css-applications.netlify.app/)
-[Styled Components](https://styled-components.com/)
-[CSS Modules](https://github.com/css-modules/css-modules)
+- [Demo Project](https://modern-css-applications.netlify.app/)
+- [Styled Components](https://styled-components.com/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
